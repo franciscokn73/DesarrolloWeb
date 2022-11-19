@@ -76,3 +76,4 @@ def writeDatosDiccio():
     forWrite = json.dumps(datos_diccio, indent=2)
     fichero.write(forWrite)
     fichero.close()
+# cambios a fichero VS
