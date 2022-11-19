@@ -1,0 +1,12 @@
+[
+  {
+    "id": "TP01",
+    "usuario": "Tereza",
+    "clave": "Perez"
+  },
+  {
+    "id": "TP02",
+    "usuario": "Andres",
+    "clave": "Gonzalez"
+  }
+  ]
