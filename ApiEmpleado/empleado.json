@@ -7,5 +7,14 @@
     "apellido": "Hernandez",
     "telefono": "5104561218",
     "correo": "herher1218@hotmail.com"
+  },
+  {
+    "cedula": "123456",
+    "cargo": "Vendedor",
+    "rol": "Vendedor",
+    "nombre": "Neyder Gonzalo",
+    "apellido": "Gonzalez",
+    "telefono": "5223504859",
+    "correo": "gongon4859@gmail.com"
   }
 ]
