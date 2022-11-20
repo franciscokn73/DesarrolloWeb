@@ -1,7 +1,0 @@
-{
-    "git.alwaysShowStagedChangesResourceGroup": true,
-    "git.alwaysSignOff": true,
-    "git.autofetch": false,
-    "git.autofetchPeriod": 3600,
-    "git.autoStash": true
-}
