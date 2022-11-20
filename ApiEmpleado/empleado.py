@@ -16,12 +16,12 @@ class empleado(BaseModel):
     telefono:str
     correo:str
 
-@app.get("/select")
+@app.get("/select/empleado")
 def mostrar():
     readDatosDiccio()
     return datos_diccio
 
-@app.post("/insert") 
+@app.post("/insert/empleado") 
 async def guardar(datos:empleado):
     readDatosDiccio()
     encode_datos = jsonable_encoder(datos)
@@ -29,7 +29,7 @@ async def guardar(datos:empleado):
     writeDatosDiccio()
     return {"Mensaje":"Registro almacenado"}
 
-@app.put("/update") 
+@app.put("/update/empleado") 
 def actualizar(datos:empleado):
     print(datos)
     readDatosDiccio()
@@ -52,7 +52,7 @@ def actualizar(datos:empleado):
     else:
         return {"Mensaje": "Registro no encontrado"}
 
-@app.delete("/delete")
+@app.delete("/delete/empleado")
 def eliminar(datos:empleado):
     print(datos)
     readDatosDiccio()

@@ -12,12 +12,12 @@ class usuario(BaseModel):
     usuario:str
     clave:str
 
-@app.get("/select")
+@app.get("/select/usuario")
 def mostrar():
     readDatosDiccio()
     return datos_diccio
 
-@app.post("/insert") 
+@app.post("/insert/usuario") 
 async def guardar(datos:usuario):
     readDatosDiccio()
     encode_datos = jsonable_encoder(datos)
@@ -25,7 +25,7 @@ async def guardar(datos:usuario):
     writeDatosDiccio()
     return {"Mensaje":"Registro almacenado"}
 
-@app.put("/update") 
+@app.put("/update/usuario") 
 def actualizar(datos:usuario):
     print(datos)
     readDatosDiccio()
@@ -45,7 +45,7 @@ def actualizar(datos:usuario):
     else:
         return {"Mensaje": "Registro no encontrado"}
 
-@app.delete("/delete")
+@app.delete("/delete/usuario")
 def eliminar(datos:usuario):
     print(datos)
     readDatosDiccio()
