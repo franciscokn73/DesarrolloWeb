@@ -1,0 +1,19 @@
+[
+    {
+        "fecha": "21Nov.2022",
+        "codigovehiculo": "OP456ZU",
+        "descripcionvehiculo": "Transporte",
+        "valorvehiculo": "86.000.000",
+        "impuestos": "2.500.000",
+        "valortotal": "88.500.000"
+    },
+    
+    {
+        "fecha": "20Nov.2022",
+        "codigovehiculo": "TZ456ZU",
+        "descripcionvehiculo": "Transporte-2",
+        "valorvehiculo": "84.000.000",
+        "impuestos": "1.500.000",
+        "valortotal": "85.500.000"
+    }
+]
