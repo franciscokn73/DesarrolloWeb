@@ -6,7 +6,12 @@
   },
   {
     "id": "TP02",
-    "usuario": "Andres",
-    "clave": "Gonzalez"
+    "usuario": "AndresFelipe",
+    "clave": "gonzalez87"
+  },
+  {
+    "id": "AM03",
+    "usuario": "Alicia",
+    "clave": "Morgan"
   }
-  ]
+]
