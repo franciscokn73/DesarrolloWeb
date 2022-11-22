@@ -16,7 +16,7 @@ class factura(BaseModel):
     valortotal:str
 
 @app.get("/select-factura")
-def mostrar_factura():
+async def mostrar_factura():
     readDatosDiccio()
     return datos_diccio
 

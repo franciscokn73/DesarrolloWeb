@@ -1,0 +1,18 @@
+[
+    {
+        "cedula": "88190458",
+        "nombre": "Humberto",
+        "apellido": "Ramírez",
+        "telefono": "3123041584",
+        "correo": "humberam@yahoo.com",
+        "direccionenvio": "Pie de Cuesta, Santander."
+    },
+    {
+        "cedula": "88190460",
+        "nombre": "Rodrigo",
+        "apellido": "Pérez",
+        "telefono": "3123041586",
+        "correo": "rodripere@gmail.com",
+        "direccionenvio": "Girón, Santander."
+    }
+]
