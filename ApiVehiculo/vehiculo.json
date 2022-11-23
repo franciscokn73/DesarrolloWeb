@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "serialMotor": "7895411-1245789",
+    "tipo": "Automovil",
+    "categoria": "Sedan",
+    "marca": "Mazda",
+    "modelo": 2015,
+    "color": "Rojo",
+    "a\u00f1o": 2015,
+    "pais": "Colombia",
+    "valor": 0.0,
+    "accesorios": "reverse camera, airbag, rines de lujo",
+    "urlFoto": "./images/7895411-1245789.jpg"
+  }
+]

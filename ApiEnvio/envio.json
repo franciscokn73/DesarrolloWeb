@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "guia": "5098235614",
+    "keyCliente": "88190458",
+    "keyTransportador": "40735298"
+  },
+  {
+    "guia": "5268781436",
+    "keyCliente": "9671234",
+    "keyTransportador": "40735298"
+  }
+]

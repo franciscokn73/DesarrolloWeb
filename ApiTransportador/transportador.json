@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "nit": "40735298",
+    "nombre": "Luis Carlos Nieto ",
+    "direccion": "transversal 18 15-80 Melgar, Santander",
+    "correo": "luisni94@hotmail.com",
+    "telefono": "5132806934"
+  },
+  {
+    "nit": "1210356971",
+    "nombre": "Alexander Bautista ",
+    "direccion": "Carrera 50 20-37 el pobldo, Guainia",
+    "correo": "bautistaalex2001@hotmail.com",
+    "telefono": "8201052235"
+  }
+]
