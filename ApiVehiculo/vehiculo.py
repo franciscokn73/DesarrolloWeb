@@ -12,11 +12,12 @@ class vehiculo(BaseModel):
     tipo:str
     categoria:str
     marca:str
-    modelo:int
+    modelo:str
     color:str
     año:int
     pais:str
-    valor:float
+    valor:int
+    valorString:str
     accesorios:str
     urlFoto:str
 

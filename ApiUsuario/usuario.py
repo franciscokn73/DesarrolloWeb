@@ -8,7 +8,7 @@ datos_diccio = []
 
 # Objeto persona
 class usuario(BaseModel):
-    id:str
+    _id:str
     usuario:str
     clave:str
 

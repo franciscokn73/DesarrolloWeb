@@ -1,0 +1,50 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--CSS only-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!--ICONOS de GOOGLE-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+      <!--Iconos by BOOTSTRAP-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+     <!--CSS propio-->
+     <link rel="stylesheet" href="./static/index.css">
+</head>
+<body style=" background-color: #fff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-0 col-sm-2 g-0">
+                    <div class="user" style="background-color: rgb(119, 168, 224); height: 15vh;">
+                        <div style="text-align: right; height: 10%;"><h1 class="material-icons" >settings</h1></div><br>
+                        <div ><button onclick="window.open('./login')" class="material-icons" style="font-size: 400%; background-color: rgba(255, 255, 255, 0); border: none;">account_circle</button></div>
+                    </div>
+                    <div class="d-flex align-items-center" style="background-color: rgb(237, 237, 237); height: 60vh;"> 
+                        <div class="botones" style="width: 100%;">                      
+                        <button class="btn btn-primary mb-1 bi bi-sort-alpha-down" type="button" style="width: 100%;"> ORDENAR</button>
+                        <button class="btn btn-primary mb-1 bi bi-car-front-fill" type="button" style="width: 100%;"> VEHICULOS</button>
+                        <button class="btn btn-primary mb-1 bi bi-chat-left-dots-fill" type="button" style="width: 100%;"> MENSAJE</button>
+                        <button class="btn btn-primary mb-1 bi bi-telephone-outbound-fill" type="button" style="width: 100%;"> LLAMAME</button>
+                        </div>
+                    </div>
+                    <div class="" style="background-color: rgb(237, 237, 237); height: 30vh; text-align: center;">
+                        <img src='{% static "/images/Logo.png"%}' alt="" style="height: 100%;">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-10 g-0">
+                    <div class="row g-0" style="height: 8vh;"></div>
+                    <div class="row g-0" style="background-color: rgb(155, 187, 224); height: 7vh; "><div class="bi bi-cart4 pe-2" style="font-size: 150%; animation-name: slideRight; animation-duration: 5s; animation-fill-mode: forwards;"> </div></div>
+                    <div class="row g-0" style="height: 74vh;">
+                        <img src='{% static "/images/EnConstruccion.jpg"%}' style="height: 100%;" alt="">
+                    </div>
+                    
+                </div> 
+            </div>
+        </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

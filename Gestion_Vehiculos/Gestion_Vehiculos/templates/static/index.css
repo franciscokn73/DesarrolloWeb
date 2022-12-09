@@ -1,0 +1,8 @@
+@keyframes slideRight {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(96%, 0);
+    }
+}

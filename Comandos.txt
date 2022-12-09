@@ -1,0 +1,5 @@
+#ejecutar uvicorn para FastApi
+uvicorn usuario:app --host 0.0.0.0 --port 8000 --reload
+
+#ejecutar FrontEND en Django
+python manage.py runserver 0.0.0.0:80
